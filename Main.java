@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Main extends Library {
     public static void main(String[] args) throws java.io.FileNotFoundException, java.util.InputMismatchException, IOException {
 
-        Scanner fileReader = new Scanner(new File("/Users/sohampanda/Desktop/Programming/ForbiddenLibrary/books.txt"));
+        Scanner fileReader = new Scanner(new File("/books.txt"));
         Scanner userInput = new Scanner(System.in);
 
         ArrayList<Book> books = new ArrayList<Book>();
